@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+*{ 
+    font-family: 'Open Sans', sans-serif;
+}
+    
+.btn-color{
+    background-color: white;
+    background-color: #d70f64;
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+
+
+
+    }
+
+.alert-color{
+    background-color: #d70f64;
+}
+.alert-dismissible {
+    color: white !important;
+}
+.fa-user-alt {
+
+    background-color: #d70f64;
+    color: white;
+    border-radius: 22px;
+    padding: 12px;
+}
+.fa-shopping-basket {
+    color: #d70f64;
+        
+}
+.bg-img{
+    background-image:url("../images/bg-home\ jpg");
+    height: 60vh;
+    background-position: 135%;
+    background-size: contain;
+    background-repeat: no-repeat;
+     
+}
+.input-group-text{
+    background-color: transparent;
+    border: none;
+}
+.btn-color-1{
+    background-color: white;
+    background-color: #d70f64;
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+}
+input[type="text"]{
+    height: 80px;
+}
+.offset-1{
+    position: relative;
+    top: 92px;
+}
+.partners-text{
+    font-size: 150px;
+    color: rgba(131, 119, 119, 0.075)
+
+}
+.partners-text2{
+    font-size: 30px;
+    position: relative;
+    bottom: 100px;
+}.bg-img1{
+    background-image:url("../images/home-vendor-pk\ jpg");
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.card-body{
+    border-radius: 5px;
+    position: relative;
+    top: 202px;
+}
+.hovereffect {
+    width: 100%;
+    height: 100%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    cursor: default;
+    background: -webkit-linear-gradient(45deg, #ff89e9 0%, #05abe0 100%);
+    background: linear-gradient(45deg, #ff89e9 0%,#05abe0 100%);
+  }
+  
+  .hovereffect .overlay {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    padding: 3em;
+    text-align: left;
+  }
+  
+  .hovereffect img {
+    display: block;
+    position: relative;
+    max-width: none;
+    width: calc(100% + 60px);
+    -webkit-transition: opacity 0.35s, -webkit-transform 0.45s;
+    transition: opacity 0.35s, transform 0.45s;
+    -webkit-transform: translate3d(-40px,0,0);
+    transform: translate3d(-40px,0,0);
+  }
+  
+  .hovereffect h2 {
+    text-transform: uppercase;
+    color: #fff;
+    position: relative;
+    font-size: 17px;
+    background-color: transparent;
+    padding: 15% 0 10px 0;
+    text-align: left;
+  }
+  
+  .hovereffect .overlay:before {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    bottom: 20px;
+    left: 20px;
+    border: 1px solid #fff;
+    content: '';
+    opacity: 0;
+    filter: alpha(opacity=0);
+    -webkit-transition: opacity 0.35s, -webkit-transform 0.45s;
+    transition: opacity 0.35s, transform 0.45s;
+    -webkit-transform: translate3d(-20px,0,0);
+    transform: translate3d(-20px,0,0);
+  }
+  
+  .hovereffect a, .hovereffect p {
+    color: #FFF;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    -webkit-transition: opacity 0.35s, -webkit-transform 0.45s;
+    transition: opacity 0.35s, transform 0.45s;
+    -webkit-transform: translate3d(-10px,0,0);
+    transform: translate3d(-10px,0,0);
+  }
+  
+  .hovereffect:hover img {
+    opacity: 0.6;
+    filter: alpha(opacity=60);
+    -webkit-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+  }
+  
+  .hovereffect:hover .overlay:before,
+  .hovereffect:hover a, .hovereffect:hover p {
+    opacity: 1;
+    filter: alpha(opacity=100);
+    -webkit-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+  }
+  .bg-bg{
+    background-color: #e21b70;
+    height: 40vh;
+ }
+.img-app{
+    position: relative;
+    bottom: 62px;
+}
+  
+
